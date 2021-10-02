@@ -12,9 +12,11 @@ const Tasks = ({items}) => {
 }
 
 const Task = ({item}) => {
+  const {done} = item;
+  const color = done ? 'green' : 'red';
 
     return (
-        <li>{item.text}</li>
+        <li style={{color: color}}>{item.text}</li>
     );
 }
 
