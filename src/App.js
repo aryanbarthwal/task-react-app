@@ -5,7 +5,7 @@ import Tasks from './Tasks';
 function App() {
   return (
     <div className="App">
-     <h1>Hello World</h1>
+     <h1>Hello aryan</h1>
      <Tasks items={tasks}/>
     </div>
   );
